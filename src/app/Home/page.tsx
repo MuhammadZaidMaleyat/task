@@ -81,7 +81,7 @@ const EnterData: React.FC = () => {
         }}
       >
         {todos.length === 0 ? (
-          <Typography sx={{ fontSize: "50px" }}>Page Not Found</Typography>
+          <Typography sx={{ fontSize: "50px" }}>Task Not Found</Typography>
         ) : (
           <TableContainer>
             <Table>
